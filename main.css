@@ -13,6 +13,17 @@ body {
   background: #f7f5f0;
 }
 
+/********************************
+Mobile First Approach - Default Styles
+********************************/
+
+img.image-block {
+  width: 100%;
+  margin: 0 auto;
+  border: 5px solid red;
+}
+
+
 
 
 /********************************
