@@ -19,6 +19,7 @@ h1 {
 
 h2 {
   color: #4a4a4a;
+  margin-top: 10px;
 }
 
 p {
@@ -63,6 +64,7 @@ header {
   width: 90%;
   padding: 3px;
   margin: 0 auto;
+  display: block;
 }
 
 .content {
@@ -90,7 +92,7 @@ Media Queries and Breaks: Set @ 768 px and 1024 px
     text-align: center;
     font-family: 'Roboto', sans-serif;
     color: #222;
-    background: #f7f5f0;
+    background: #fafafa;
   }
 
   header,
@@ -101,7 +103,7 @@ Media Queries and Breaks: Set @ 768 px and 1024 px
     text-align: center;
     font-family: 'Roboto', sans-serif;
     color: #222;
-    background: #f7f5f0;
+    background: #fafafa;
   }
 
   .content {
@@ -110,10 +112,12 @@ Media Queries and Breaks: Set @ 768 px and 1024 px
   }
 
   .main-block {
-    width: 50%;
-    padding: 3px;
+    width: 49%;
+    padding: 15px;
     margin: 0 auto;
+    display: inline-block;
   }
+
 
 }
 
