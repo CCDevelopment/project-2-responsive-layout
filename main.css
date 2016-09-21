@@ -48,6 +48,12 @@ img.image-block {
   margin: 0 auto;
 }
 
+img.profile-image {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 4em;
+}
+
 header {
   background
 
