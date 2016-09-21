@@ -5,12 +5,38 @@
 
 body {
   margin: 0 auto;
-  width: 90%;
+  width: 100%;
   padding: 0;
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #f7f5f0;
+  background: #fafafa;
+}
+
+h1 {
+  color: #4a4a4a;
+}
+
+h2 {
+  color: #4a4a4a;
+}
+
+p {
+  color: #737373;
+}
+
+a.main-nav {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+  color: #4a4a4a;
+  font-weight: 600;
+  background-color: #fff;
+  border-radius: 2px;
+  padding: 10px;
+  text-decoration: none;
+  margin-bottom: 5px;
+  text-transform: uppercase;
 }
 
 /********************************
@@ -20,10 +46,24 @@ Mobile First Approach - Default Styles
 img.image-block {
   width: 100%;
   margin: 0 auto;
-  border: 5px solid red;
 }
 
+header {
+  background
 
+}
+
+.main-block {
+  width: 90%;
+  padding: 3px;
+  margin: 0 auto;
+}
+
+.content {
+  background-color: #fff;
+  width: 100%;
+  margin: 0 auto;
+}
 
 
 /********************************
@@ -63,6 +103,11 @@ Media Queries and Breaks: Set @ 768 px and 1024 px
     margin: 0 auto;
   }
 
+  .main-block {
+    width: 50%;
+    padding: 3px;
+    margin: 0 auto;
+  }
 
 }
 
