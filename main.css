@@ -76,10 +76,9 @@ a {
 /********************************
 Mobile First Approach - Default Styles
 ********************************/
-a.main-nav {
+.main-nav li {
   display: block;
   width: 90%;
-  margin: 0 auto;
   color: #4a4a4a;
   font-weight: 600;
   background-color: #fff;
@@ -164,7 +163,7 @@ Media Queries and Breaks: Set @ 768 px and 1024 px
     width: 100%;
     padding: 0;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     color: #222;
     background: #fafafa;
   }
@@ -175,7 +174,7 @@ Media Queries and Breaks: Set @ 768 px and 1024 px
     width: 100%;
     padding: 0;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     color: #222;
     background: #fafafa;
   }
@@ -196,6 +195,24 @@ Media Queries and Breaks: Set @ 768 px and 1024 px
     max-width: 768px;
     padding: 20px;
   }
+
+  .main-nav {
+      margin-top: 2em;
+  }
+
+  .main-nav li {
+      display: block;
+      width: 90%;
+      color: #4a4a4a;
+      background-color: #fafafa;
+      font-weight: 600;
+      border-radius: 2px;
+      padding: 10px;
+      display: inline;
+      margin: 1.5em;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
 
 }
 
