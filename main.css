@@ -206,6 +206,7 @@ Media Queries and Breaks: Set @ 768 px and 1024 px
     padding: 20px;
     float: left;
     width: 60%;
+    font-size: 1.2em;
     margin: 5% 2%;
     text-align: justify;
   }
@@ -235,7 +236,7 @@ Media Queries and Breaks: Set @ 768 px and 1024 px
 
     p.footercontact {
       color: #737373;
-      font-size: 1em;
+      font-size: 1.2em;
       line-height: 1.5em;
       text-align: center;
       width: 60%;
@@ -251,6 +252,10 @@ Media Queries and Breaks: Set @ 768 px and 1024 px
       width: 100%;
       margin: 0;
       padding: 10px;
+    }
+
+    footer ul li a {
+      font-weight: 600;
     }
 
     .footernav {
@@ -288,11 +293,42 @@ Media Queries and Breaks: Set @ 768 px and 1024 px
     text-align: center;
   }
 
+  .content {
+    width: 95%;
+    margin: 0 auto;
+  }
+
   .main-block {
     width: 30%;
     padding: 15px;
     margin: 0 auto;
     display: inline-block;
+  }
+
+  .main-nav {
+      margin: 2%;
+      float: left;
+      width: 67%;
+  }
+
+  .main-nav ul {
+    margin-right: 5px;
+    text-align: right;
+  }
+
+  #top {
+    float:left;
+    padding: 10px;
+    width: 25%;
+    margin: 2%;
+  }
+
+  p.introduction-paragraph {
+    margin: 2% 2%;
+  }
+
+  img.profile-image {
+    margin: 2% 2%;
   }
 
 }
