@@ -37,7 +37,7 @@ h4 {
   font-size: 1em;
   text-align: left;
   padding: 10px;
-  margin-left: .5em;
+  margin-left: 1.5em;
   float: left;
 }
 
@@ -50,6 +50,9 @@ footer a.backtotop {
   text-transform: uppercase;
 }
 
+.footernav {
+  display: none;
+}
 
 p {
   color: #737373;
@@ -126,9 +129,11 @@ footer li {
   margin: 0 auto;
 }
 
-footer ul {
-  border-bottom: 1px solid lightgray;
+
+.hrline {
+  background-color: lightgray;
   width: 90%;
+  height: 1px;
   margin: 0 auto;
 }
 
@@ -143,6 +148,10 @@ footer ul {
   background-color: #fff;
   width: 100%;
   margin: 0 auto;
+}
+
+.footer-nav li {
+  display: none;
 }
 
 
@@ -181,7 +190,7 @@ Media Queries and Breaks: Set @ 768 px and 1024 px
   }
 
   .content {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
   }
 
@@ -197,6 +206,7 @@ Media Queries and Breaks: Set @ 768 px and 1024 px
     padding: 20px;
     float: left;
     width: 60%;
+    margin: 5% 2%;
     text-align: justify;
   }
 
@@ -205,12 +215,10 @@ Media Queries and Breaks: Set @ 768 px and 1024 px
   }
 
   .main-nav li {
-      display: block;
       width: 90%;
       color: #4a4a4a;
       background-color: #fafafa;
       font-weight: 600;
-      border-radius: 2px;
       padding: 10px;
       display: inline;
       margin: 1.5em;
@@ -221,7 +229,53 @@ Media Queries and Breaks: Set @ 768 px and 1024 px
     img.profile-image {
       width: 30%;
       float: right;
-      margin-left: 5%;
+      padding: 5px;
+      margin: 5% 2%;
+    }
+
+    p.footercontact {
+      color: #737373;
+      font-size: 1em;
+      line-height: 1.5em;
+      text-align: center;
+      width: 60%;
+      margin: 0 auto;
+      padding: 5px;
+    }
+
+    footer a.backtotop {
+      display: none;
+    }
+
+    footer ul {
+      width: 100%;
+      margin: 0;
+      padding: 10px;
+    }
+
+    .footernav {
+      width: 50%;
+      float: right;
+      display: inline-block;
+      margin-top: 1em;
+    }
+
+    .footernav li {
+      width: 25%;
+      color: #4a4a4a;
+      padding: 0px;
+      display: inline-block;
+      margin: 0 auto;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+
+    .footernav li a{
+      width: 90%;
+      color: #4a4a4a;
+      background-color: #fafafa;
+      font-weight: 600;
+      display: inline-block;
     }
 
 }
