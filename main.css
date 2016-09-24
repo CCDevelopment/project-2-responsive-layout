@@ -24,6 +24,32 @@ h2 {
   font-size: 1.2em;
 }
 
+h3 {
+  color: #4a4a4a;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  margin-top: 3em;
+  padding: 20px;
+}
+
+h4 {
+  color: #4a4a4a;
+  font-size: 1em;
+  text-align: left;
+  padding: 10px;
+  margin-left: .5em;
+  float: left;
+}
+
+footer a.backtotop {
+  color: #4a4a4a;
+  font-size: 1em;
+  text-align: left;
+  padding: 10px;
+  margin-left: 7em;
+  text-transform: uppercase;
+}
+
 
 p {
   color: #737373;
@@ -42,6 +68,8 @@ hr {
 
 a {
   text-decoration: none;
+  color: #737373;
+  font-weight: 600;
 }
 
 
@@ -84,6 +112,25 @@ img.profile-image {
 header {
   background-color: #fafafa;
   margin-bottom: 5em;
+}
+
+footer {
+  background-color: #fafafa;
+  margin-top: 3em;
+}
+
+footer li {
+  display: block;
+  text-decoration: none;
+  color: #4a4a4a;
+  padding: 5px;
+  margin: 0 auto;
+}
+
+footer ul {
+  border-bottom: 1px solid lightgray;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .main-block {
