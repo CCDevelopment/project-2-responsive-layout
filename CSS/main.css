@@ -46,7 +46,6 @@ footer a.backtotop {
   font-size: 1em;
   text-align: left;
   padding: 10px;
-  margin-left: 7em;
   text-transform: uppercase;
 }
 
@@ -145,6 +144,7 @@ footer li {
   padding: 3px;
   margin: 0 auto;
   display: block;
+  vertical-align: top;
 }
 
 .content {
@@ -287,16 +287,14 @@ Media Queries and Breaks: Set @ 768 px and 1024 px
     }
 
     .main-nav {
-        margin: 2%;
-        float: left;
-        width: 67%;
+        margin: 0 auto;
+        width: 100%;
     }
 
     #top {
-      float:left;
       padding: 10px;
-      width: 25%;
-      margin: 2%;
+      width: 100%;
+      margin: 0 auto;
     }
 
 }
@@ -307,6 +305,20 @@ Media Queries and Breaks: Set @ 768 px and 1024 px
     max-width: 1300px;
     display: inline-block;
     text-align: center;
+  }
+
+  .main-nav {
+      margin: 1em auto;
+      float: left;
+      width: 70%;
+      padding: 20px 11px 0px;
+  }
+
+  #top {
+    padding: 20px 11px 0px;
+    float: left;
+    width: 30%;
+    margin: 1em auto;
   }
 
   .content {
@@ -332,6 +344,7 @@ Media Queries and Breaks: Set @ 768 px and 1024 px
 
   p.introduction-paragraph {
     margin: 2% 2%;
+    padding: 0px;
   }
 
   img.profile-image {
